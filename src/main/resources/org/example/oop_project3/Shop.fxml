@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="790.0" prefWidth="1500.0" style="-fx-background-color: #98C1F6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.oop_project3.ShopController">
+   <children>
+      <Button layoutX="36.0" layoutY="14.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button layoutX="249.0" layoutY="14.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button layoutX="455.0" layoutY="14.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button layoutX="669.0" layoutY="14.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button layoutX="879.0" layoutY="14.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button layoutX="1079.0" layoutY="14.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button layoutX="36.0" layoutY="504.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button layoutX="36.0" layoutY="261.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button fx:id="nextButton" layoutX="1357.0" layoutY="745.0" mnemonicParsing="false" onAction="#goNext" text="next page" />
+      <Button layoutX="249.0" layoutY="261.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button layoutX="455.0" layoutY="261.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button layoutX="669.0" layoutY="261.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button layoutX="879.0" layoutY="261.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button layoutX="1079.0" layoutY="261.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button layoutX="249.0" layoutY="504.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button layoutX="455.0" layoutY="504.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button layoutX="669.0" layoutY="504.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button layoutX="879.0" layoutY="504.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button layoutX="1079.0" layoutY="504.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button fx:id="backB1" layoutX="36.0" layoutY="745.0" mnemonicParsing="false" onAction="#goBack" text="BACK" />
+      <Button layoutX="1285.0" layoutY="14.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button layoutX="1285.0" layoutY="261.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <Button layoutX="1285.0" layoutY="504.0" mnemonicParsing="false" prefHeight="227.0" prefWidth="158.0" />
+      <ImageView fitHeight="233.0" fitWidth="166.0" layoutX="32.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@Acidevaporation.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="249.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@bikerSupport.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="669.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@BulletFlurry.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="879.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@ChemichalChaos.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="1079.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@CondenserFire.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="1285.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@CryoDisintegration.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="35.0" layoutY="261.0" pickOnBounds="true">
+         <image>
+            <Image url="@CryoMeltDown.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="249.0" layoutY="261.0" pickOnBounds="true">
+         <image>
+            <Image url="@DivingFire.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="455.0" layoutY="261.0" pickOnBounds="true">
+         <image>
+            <Image url="@earlyPrecision.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="669.0" layoutY="261.0" pickOnBounds="true">
+         <image>
+            <Image url="@FinalWarning.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="879.0" layoutY="261.0" pickOnBounds="true">
+         <image>
+            <Image url="@FromtheHip.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="1079.0" layoutY="261.0" pickOnBounds="true">
+         <image>
+            <Image url="@GadgetBackUp.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="1285.0" layoutY="261.0" pickOnBounds="true">
+         <image>
+            <Image url="@HazardShockWave.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="36.0" layoutY="504.0" pickOnBounds="true">
+         <image>
+            <Image url="@ionBlast.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="249.0" layoutY="504.0" pickOnBounds="true">
+         <image>
+            <Image url="@lowBlow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="455.0" layoutY="504.0" pickOnBounds="true">
+         <image>
+            <Image url="@multiFire.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="669.0" layoutY="504.0" pickOnBounds="true">
+         <image>
+            <Image url="@piercerBullet.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="879.0" layoutY="504.0" pickOnBounds="true">
+         <image>
+            <Image url="@plasmaStrike.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="1079.0" layoutY="504.0" pickOnBounds="true">
+         <image>
+            <Image url="@poisonDisperal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="1285.0" layoutY="504.0" pickOnBounds="true">
+         <image>
+            <Image url="@presistentFreeze.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="158.0" layoutX="455.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@bulletBlast.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="160.0" layoutY="216.0" mnemonicParsing="false" onAction="#addAcidEvaporation" prefHeight="31.0" prefWidth="38.0" text="+" />
+      <Button layoutX="369.0" layoutY="210.0" mnemonicParsing="false" onAction="#addbikerSupport" prefHeight="31.0" prefWidth="38.0" text="+" />
+      <Button layoutX="575.0" layoutY="210.0" mnemonicParsing="false" onAction="#addBulletBlast" prefHeight="31.0" prefWidth="38.0" text="+" />
+      <Button layoutX="789.0" layoutY="210.0" mnemonicParsing="false" onAction="#addBulletFlurry" prefHeight="22.0" prefWidth="38.0" text="+" />
+      <Button layoutX="999.0" layoutY="210.0" mnemonicParsing="false" onAction="#addChemicalChaos" prefHeight="22.0" prefWidth="38.0" text="+" />
+      <Button layoutX="1199.0" layoutY="210.0" mnemonicParsing="false" onAction="#addCondenserFire" prefHeight="22.0" prefWidth="38.0" text="+" />
+      <Button layoutX="1405.0" layoutY="210.0" mnemonicParsing="false" onAction="#addCryoDisintegration" prefHeight="22.0" prefWidth="38.0" text="+" />
+      <Button layoutX="155.0" layoutY="457.0" mnemonicParsing="false" onAction="#addCryoMeltDown" prefHeight="31.0" prefWidth="38.0" text="+" />
+      <Button layoutX="369.0" layoutY="457.0" mnemonicParsing="false" onAction="#addDivingFire" prefHeight="31.0" prefWidth="38.0" text="+" />
+      <Button layoutX="575.0" layoutY="457.0" mnemonicParsing="false" onAction="#addEarlyPrecision" prefHeight="31.0" prefWidth="38.0" text="+" />
+      <Button layoutX="789.0" layoutY="457.0" mnemonicParsing="false" onAction="#addfinalWarning" prefHeight="31.0" prefWidth="38.0" text="+" />
+      <Button layoutX="999.0" layoutY="457.0" mnemonicParsing="false" onAction="#addFromTheHip" prefHeight="31.0" prefWidth="38.0" text="+" />
+      <Button layoutX="1199.0" layoutY="457.0" mnemonicParsing="false" onAction="#addgadgetBackup" prefHeight="31.0" prefWidth="38.0" text="+" />
+      <Button layoutX="1405.0" layoutY="457.0" mnemonicParsing="false" onAction="#addHazardShockWave" prefHeight="31.0" prefWidth="38.0" text="+" />
+      <Button layoutX="155.0" layoutY="700.0" mnemonicParsing="false" onAction="#addIonBlast" prefHeight="31.0" prefWidth="38.0" text="+" />
+      <Button layoutX="369.0" layoutY="700.0" mnemonicParsing="false" onAction="#addLowBlow" prefHeight="31.0" prefWidth="38.0" text="+" />
+      <Button layoutX="575.0" layoutY="700.0" mnemonicParsing="false" onAction="#addMultiFire" prefHeight="31.0" prefWidth="38.0" text="+" />
+      <Button layoutX="789.0" layoutY="700.0" mnemonicParsing="false" onAction="#addPiercerBullet" prefHeight="31.0" prefWidth="38.0" text="+" />
+      <Button layoutX="999.0" layoutY="700.0" mnemonicParsing="false" onAction="#addplasmaStrike" prefHeight="31.0" prefWidth="38.0" text="+" />
+      <Button layoutX="1199.0" layoutY="700.0" mnemonicParsing="false" onAction="#addPoisonDispersal" prefHeight="31.0" prefWidth="38.0" text="+" />
+      <Button layoutX="1405.0" layoutY="700.0" mnemonicParsing="false" onAction="#addpersistentFreeze" prefHeight="31.0" prefWidth="38.0" text="+" />
+      <Button layoutX="32.0" layoutY="216.0" mnemonicParsing="false" onAction="#AcidEvaporation" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="249.0" layoutY="210.0" mnemonicParsing="false" onAction="#bikerSupport" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="455.0" layoutY="210.0" mnemonicParsing="false" onAction="#BulletBlast" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="669.0" layoutY="210.0" mnemonicParsing="false" onAction="#BulletFlurry" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="879.0" layoutY="210.0" mnemonicParsing="false" onAction="#ChemicalChaos" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="1079.0" layoutY="210.0" mnemonicParsing="false" onAction="#CondenserFire" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="1285.0" layoutY="210.0" mnemonicParsing="false" onAction="#CryoDisintegration" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="32.0" layoutY="457.0" mnemonicParsing="false" onAction="#CryoMeltDown" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="249.0" layoutY="457.0" mnemonicParsing="false" onAction="#DivingFire" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="455.0" layoutY="457.0" mnemonicParsing="false" onAction="#EarlyPrecision" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="669.0" layoutY="457.0" mnemonicParsing="false" onAction="#finalWarning" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="879.0" layoutY="457.0" mnemonicParsing="false" onAction="#FromTheHip" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="1079.0" layoutY="457.0" mnemonicParsing="false" onAction="#gadgetBackup" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="1285.0" layoutY="457.0" mnemonicParsing="false" onAction="#HazardShockWave" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="32.0" layoutY="700.0" mnemonicParsing="false" onAction="#IonBlast" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="249.0" layoutY="700.0" mnemonicParsing="false" onAction="#LowBlow" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="455.0" layoutY="700.0" mnemonicParsing="false" onAction="#MultiFire" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="669.0" layoutY="700.0" mnemonicParsing="false" onAction="#PiercerBullet" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="879.0" layoutY="700.0" mnemonicParsing="false" onAction="#plasmaStrike" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="1079.0" layoutY="700.0" mnemonicParsing="false" onAction="#PoisonDispersal" prefHeight="31.0" prefWidth="47.0" text="Info" />
+      <Button layoutX="1285.0" layoutY="700.0" mnemonicParsing="false" onAction="#persistentFreeze" prefHeight="31.0" prefWidth="47.0" text="Info" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="790.0" prefWidth="720.0" style="-fx-background-color: #98C1F6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.oop_project3.SoundController">
+   <children>
+      <Slider fx:id="slider1" layoutX="265.0" layoutY="174.0" prefHeight="17.0" prefWidth="171.0" />
+      <Button layoutX="113.0" layoutY="166.0" mnemonicParsing="false" onAction="#playSong1" prefHeight="34.0" prefWidth="114.0" text="music1" />
+      <Button layoutX="113.0" layoutY="268.0" mnemonicParsing="false" onAction="#playSong2" prefHeight="34.0" prefWidth="114.0" text="music2" />
+      <Button layoutX="484.0" layoutY="166.0" mnemonicParsing="false" onAction="#pauseSong1" prefHeight="34.0" prefWidth="76.0" text="pause" />
+      <Button fx:id="bButton" layoutX="71.0" layoutY="703.0" mnemonicParsing="false" onAction="#goBack" prefHeight="34.0" prefWidth="84.0" text="Back" />
+      <Slider fx:id="slider2" layoutX="265.0" layoutY="276.0" prefHeight="17.0" prefWidth="171.0" />
+      <Button layoutX="484.0" layoutY="268.0" mnemonicParsing="false" onAction="#pauseSong2" prefHeight="34.0" prefWidth="76.0" text="pause" />
+   </children>
+</AnchorPane>

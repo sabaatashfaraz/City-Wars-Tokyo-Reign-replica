@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="790.0" prefWidth="1500.0" style="-fx-background-color: #98C1F6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.oop_project3.ShopController">
+    <children>
+        <Button fx:id="backB" layoutX="36.0" layoutY="745.0" mnemonicParsing="false" onAction="#goBack1" text="BACK" />
+      <ImageView fx:id="PowerBoosterCard" fitHeight="227.0" fitWidth="158.0" layoutX="54.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@PowerBoosterCard.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="RemedyCard" fitHeight="227.0" fitWidth="158.0" layoutX="270.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@RemedyCard.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="RepairCard" fitHeight="227.0" fitWidth="158.0" layoutX="487.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@RepairCard.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="roundReducerCard" fitHeight="227.0" fitWidth="158.0" layoutX="699.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@roundReducerCard.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="WeakeningCard" fitHeight="227.0" fitWidth="158.0" layoutX="927.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@WeakeningCard.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="HoleModifierCard" fitHeight="227.0" fitWidth="158.0" layoutX="1127.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@HoleModifierCard.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ShieldCard" fitHeight="227.0" fitWidth="158.0" layoutX="1332.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ShieldCard.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="170.0" layoutY="210.0" mnemonicParsing="false" onAction="#PowerBoosterCard" prefHeight="31.0" prefWidth="42.0" text="+" />
+      <Button layoutX="386.0" layoutY="210.0" mnemonicParsing="false" onAction="#RemedyCard" prefHeight="31.0" prefWidth="42.0" text="+" />
+      <Button layoutX="603.0" layoutY="210.0" mnemonicParsing="false" onAction="#RepairCard" prefHeight="31.0" prefWidth="42.0" text="+" />
+      <Button layoutX="814.0" layoutY="210.0" mnemonicParsing="false" onAction="#roundReducerCard" prefHeight="31.0" prefWidth="42.0" text="+" />
+      <Button layoutX="1043.0" layoutY="210.0" mnemonicParsing="false" onAction="#WeakeningCard" prefHeight="31.0" prefWidth="42.0" text="+" />
+      <Button layoutX="1228.0" layoutY="210.0" mnemonicParsing="false" onAction="#HoleModifierCard" prefHeight="31.0" prefWidth="42.0" text="+" />
+      <Button layoutX="1436.0" layoutY="210.0" mnemonicParsing="false" onAction="#ShieldCard" prefHeight="31.0" prefWidth="42.0" text="+" />
+    </children>
+</AnchorPane>

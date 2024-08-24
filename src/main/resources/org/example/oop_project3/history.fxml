@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane" prefHeight="790.0" prefWidth="720.0" style="-fx-background-color: #98C1F6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.oop_project3.historyController">
+    <children>
+        <Button fx:id="backB" layoutX="14.0" layoutY="738.0" mnemonicParsing="false" onAction="#backtomain" text="back" />
+        <Button layoutX="400.0" layoutY="725.0" mnemonicParsing="false" onAction="#sort" text="sort" />
+        <Pagination fx:id="pagination" layoutX="504.0" layoutY="725.0" prefHeight="57.0" prefWidth="187.0" />
+      <ComboBox fx:id="sort2" layoutX="249.0" layoutY="725.0" prefHeight="31.0" prefWidth="127.0" promptText="sort how" />
+      <ComboBox fx:id="sort1" layoutX="100.0" layoutY="725.0" prefHeight="31.0" prefWidth="127.0" promptText="sort by" />
+      <Text layoutX="58.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="164.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Win/Lose">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="324.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Opponent">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="498.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Level">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="610.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" wrappingWidth="60.42041015625">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

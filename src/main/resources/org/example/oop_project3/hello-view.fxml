@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.oop_project3.HelloController">
+   <children>
+      <ImageView fitHeight="790.0" fitWidth="720.0" pickOnBounds="true">
+         <image>
+            <Image url="@firstIMG.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="signupB" layoutX="505.0" layoutY="129.0" mnemonicParsing="false" onAction="#signUpPage" prefHeight="63.0" prefWidth="148.0" style="-fx-background-color: #28A4C2;" text="SIGN UP">
+         <font>
+            <Font name="Bodoni MT Poster Compressed" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="loginB" layoutX="505.0" layoutY="213.0" mnemonicParsing="false" onAction="#loginPage" prefHeight="63.0" prefWidth="148.0" style="-fx-background-color: #28A4C2;" text="LOG IN">
+         <font>
+            <Font name="Bodoni MT Poster Compressed" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

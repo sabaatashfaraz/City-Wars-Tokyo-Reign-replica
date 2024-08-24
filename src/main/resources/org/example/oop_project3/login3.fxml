@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="790.0" prefWidth="720.0" style="-fx-background-color: #C2AFF5;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.oop_project3.login3Controller">
+    <children>
+        <Label layoutX="204.0" layoutY="73.0" prefHeight="25.0" prefWidth="87.0" text="Username" />
+        <TextField fx:id="usernameLField" layoutX="200.0" layoutY="98.0" prefHeight="38.0" prefWidth="320.0" />
+        <Label layoutX="204.0" layoutY="163.0" prefHeight="25.0" prefWidth="63.0" text="Password" />
+        <TextField fx:id="passLField" layoutX="200.0" layoutY="188.0" prefHeight="38.0" prefWidth="320.0" />
+        <Button fx:id="loginB" layoutX="317.0" layoutY="311.0" mnemonicParsing="false" onAction="#login" prefHeight="38.0" prefWidth="87.0" text="Log in" />
+        <Button fx:id="forgetPassB" layoutX="287.0" layoutY="376.0" mnemonicParsing="false" onAction="#forgetPassword" prefHeight="38.0" prefWidth="147.0" text="Forget password" />
+        <TextField fx:id="answerPassField" layoutX="200.0" layoutY="467.0" prefHeight="38.0" prefWidth="320.0" promptText="answer" visible="false" />
+        <Label fx:id="answerLabel" layoutX="204.0" layoutY="427.0" prefHeight="25.0" prefWidth="320.0" text="asnwer" visible="false" wrapText="true" />
+        <Label fx:id="newPassLabel" layoutX="204.0" layoutY="529.0" prefHeight="21.0" prefWidth="104.0" text="new password" visible="false" wrapText="true" />
+        <TextField fx:id="newPassField" layoutX="206.0" layoutY="556.0" prefHeight="38.0" prefWidth="320.0" promptText="new password" visible="false" />
+        <Label fx:id="countdownLabel" layoutX="196.0" layoutY="246.0" prefHeight="38.0" prefWidth="320.0" wrapText="true" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="790.0" prefWidth="720.0" style="-fx-background-color: #C2AFF5;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.oop_project3.RegisterController">
+   <children>
+      <Label layoutX="176.0" layoutY="30.0" prefHeight="38.0" prefWidth="79.0" text="Username" />
+      <TextField fx:id="usernameField" layoutX="176.0" layoutY="68.0" prefHeight="31.0" prefWidth="353.0" promptText="Username" />
+      <Label layoutX="175.0" layoutY="107.0" prefHeight="24.0" prefWidth="70.0" text="Password" />
+      <TextField fx:id="passField" layoutX="176.0" layoutY="131.0" prefHeight="38.0" prefWidth="353.0" promptText="Password" />
+      <Label layoutX="176.0" layoutY="180.0" text="Nickname" />
+      <TextField fx:id="nicknameField" layoutX="176.0" layoutY="201.0" prefHeight="38.0" prefWidth="353.0" promptText="Nickname" />
+      <Button fx:id="randomB" layoutX="85.0" layoutY="135.0" mnemonicParsing="false" onAction="#randomPassword" text="random" />
+      <Label layoutX="176.0" layoutY="247.0" prefHeight="21.0" prefWidth="67.0" text="Email" />
+      <TextField fx:id="emailField" layoutX="176.0" layoutY="268.0" prefHeight="38.0" prefWidth="353.0" promptText="Email" />
+      <ComboBox fx:id="security" layoutX="176.0" layoutY="339.0" prefHeight="38.0" prefWidth="353.0" />
+      <Label layoutX="175.0" layoutY="318.0" prefHeight="21.0" prefWidth="128.0" text="security question" />
+      <Label layoutX="176.0" layoutY="385.0" prefHeight="21.0" prefWidth="67.0" text="answer" />
+      <TextField fx:id="answerField" layoutX="175.0" layoutY="406.0" prefHeight="38.0" prefWidth="353.0" promptText="answer" />
+      <Button fx:id="signinB" layoutX="307.0" layoutY="528.0" mnemonicParsing="false" onAction="#signin" prefHeight="38.0" prefWidth="91.0" text="Sign in" />
+      <Button fx:id="backB" layoutX="28.0" layoutY="738.0" mnemonicParsing="false" onAction="#goBack" text="BACK" />
+      <Label fx:id="error" layoutX="255.0" layoutY="140.0" prefHeight="21.0" prefWidth="265.0" />
+      <Label fx:id="captchaLabel" layoutX="195.0" layoutY="579.0" prefHeight="152.0" prefWidth="331.0" wrapText="true">
+         <font>
+            <Font name="Monospaced Regular" size="15.0" />
+         </font></Label>
+      <TextField fx:id="captchaField" layoutX="184.0" layoutY="731.0" prefHeight="38.0" prefWidth="353.0" promptText="captcha" />
+      <ComboBox fx:id="setCharacter" layoutX="175.0" layoutY="459.0" prefHeight="38.0" prefWidth="353.0" />
+   </children>
+</AnchorPane>

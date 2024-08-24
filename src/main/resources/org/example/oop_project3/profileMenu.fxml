@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="790.0" prefWidth="720.0" style="-fx-background-color: #98C1F6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.oop_project3.profileMenuController">
+   <children>
+      <Button layoutX="291.0" layoutY="32.0" mnemonicParsing="false" onAction="#showInformation" prefHeight="42.0" prefWidth="138.0" text="Show information" />
+      <ListView fx:id="information" layoutX="168.0" layoutY="86.0" prefHeight="157.0" prefWidth="384.0" />
+      <Label fx:id="newUsernameLabel" layoutX="168.0" layoutY="260.0" prefHeight="21.0" prefWidth="123.0" text="Change Username" />
+      <TextField fx:id="newUsernameField" layoutX="168.0" layoutY="281.0" prefHeight="36.0" prefWidth="384.0" promptText="Enter a new username:" />
+      <Label fx:id="newEmailLabel" layoutX="168.0" layoutY="327.0" prefHeight="21.0" prefWidth="123.0" text="Change Email" />
+      <TextField fx:id="newEmailField" layoutX="168.0" layoutY="348.0" prefHeight="36.0" prefWidth="384.0" promptText="Enter a new Email" />
+      <Label fx:id="changeNicknameLabel" layoutX="168.0" layoutY="395.0" prefHeight="28.0" prefWidth="123.0" text="Change Nickname" />
+      <TextField fx:id="changeNicknameField" layoutX="168.0" layoutY="423.0" prefHeight="36.0" prefWidth="384.0" promptText="Enter a new nickname" />
+      <Label fx:id="changePassLabel" layoutX="168.0" layoutY="465.0" prefHeight="28.0" prefWidth="123.0" text="Change password" />
+      <TextField fx:id="newPassField" layoutX="168.0" layoutY="536.0" prefHeight="36.0" prefWidth="384.0" promptText="Enter a new password:" />
+      <TextField fx:id="oldPassField" layoutX="168.0" layoutY="493.0" prefHeight="36.0" prefWidth="384.0" promptText="Enter your old password:" />
+      <Label fx:id="newPassAgainLabel" layoutX="168.0" layoutY="682.0" prefHeight="28.0" prefWidth="274.0" text="please Enter your new password again" visible="false" />
+      <TextField fx:id="newPassAgainField" layoutX="168.0" layoutY="710.0" prefHeight="28.0" prefWidth="384.0" visible="false" />
+      <Label fx:id="captchaLabel" layoutX="168.0" layoutY="571.0" prefHeight="139.0" prefWidth="544.0" wrapText="true">
+         <font>
+            <Font name="Monospaced Regular" size="15.0" />
+         </font></Label>
+      <TextField fx:id="captchaField" layoutX="168.0" layoutY="710.0" prefHeight="36.0" prefWidth="384.0" />
+      <Button fx:id="saveB" layoutX="335.0" layoutY="751.0" mnemonicParsing="false" onAction="#editProfile" text="Save" />
+      <Button fx:id="backB" layoutX="603.0" layoutY="726.0" mnemonicParsing="false" onAction="#back" text="BACK" />
+   </children>
+</AnchorPane>

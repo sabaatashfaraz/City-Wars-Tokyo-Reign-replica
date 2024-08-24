@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="790.0" prefWidth="720.0" style="-fx-background-color: #98C1F6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.oop_project3.GameController">
+    <children>
+        <Button fx:id="twoplayerB" layoutX="266.0" layoutY="203.0" mnemonicParsing="false" onAction="#twoplayergame" prefHeight="47.0" prefWidth="189.0" text="Two-Player mode" />
+        <Button fx:id="betB" layoutX="266.0" layoutY="292.0" mnemonicParsing="false" onAction="#betgame" prefHeight="47.0" prefWidth="189.0" text="Bet mode" />
+        <Button fx:id="backB" layoutX="27.0" layoutY="725.0" mnemonicParsing="false" onAction="#backtomain" text="back" />
+    </children>
+</AnchorPane>

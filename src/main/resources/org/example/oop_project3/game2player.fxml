@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="boardPane" prefHeight="790.0" prefWidth="1500.0" style="-fx-background-color: #00023D;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.oop_project3.Game2PlayerController">
+    <children>
+        <ImageView fitHeight="790.0" fitWidth="1500.0" layoutY="76.0" pickOnBounds="true">
+            <image>
+                <Image url="@board.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="ch1" fitHeight="233.0" fitWidth="219.0" layoutX="1280.0" pickOnBounds="true" />
+        <ImageView fx:id="ch2" fitHeight="233.0" fitWidth="219.0" layoutX="7.0" layoutY="609.0" pickOnBounds="true" />
+        <ImageView fx:id="card3p1" fitHeight="186.0" fitWidth="144.0" layoutX="774.0" layoutY="14.0" pickOnBounds="true" />
+        <ImageView fx:id="card4p1" fitHeight="186.0" fitWidth="144.0" layoutX="933.0" layoutY="14.0" pickOnBounds="true" />
+        <ImageView fx:id="card5p1" fitHeight="186.0" fitWidth="144.0" layoutX="1094.0" layoutY="14.0" pickOnBounds="true" />
+        <ImageView fx:id="card2p1" fitHeight="186.0" fitWidth="144.0" layoutX="616.0" layoutY="14.0" pickOnBounds="true" />
+        <ImageView fx:id="card1p1" fitHeight="186.0" fitWidth="144.0" layoutX="456.0" layoutY="14.0" pickOnBounds="true" />
+        <ImageView fx:id="card1p2" fitHeight="186.0" fitWidth="144.0" layoutX="266.0" layoutY="633.0" pickOnBounds="true" />
+        <ImageView fx:id="card2p2" fitHeight="186.0" fitWidth="144.0" layoutX="421.0" layoutY="633.0" pickOnBounds="true" />
+        <ImageView fx:id="card3p2" fitHeight="186.0" fitWidth="144.0" layoutX="578.0" layoutY="633.0" pickOnBounds="true" />
+        <ImageView fx:id="card4p2" fitHeight="186.0" fitWidth="144.0" layoutX="731.0" layoutY="633.0" pickOnBounds="true" />
+        <ImageView fx:id="card5p2" fitHeight="186.0" fitWidth="144.0" layoutX="885.0" layoutY="633.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c1" fitHeight="150.0" fitWidth="71.0" layoutX="106.0" layoutY="207.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c2" fitHeight="150.0" fitWidth="59.0" layoutX="186.0" layoutY="207.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c3" fitHeight="150.0" fitWidth="59.0" layoutX="249.0" layoutY="207.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c4" fitHeight="150.0" fitWidth="53.0" layoutX="321.0" layoutY="213.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c5" fitHeight="150.0" fitWidth="59.0" layoutX="378.0" layoutY="213.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c6" fitHeight="134.0" fitWidth="53.0" layoutX="439.0" layoutY="240.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c7" fitHeight="134.0" fitWidth="53.0" layoutX="502.0" layoutY="229.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c8" fitHeight="134.0" fitWidth="53.0" layoutX="561.0" layoutY="240.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c9" fitHeight="134.0" fitWidth="53.0" layoutX="624.0" layoutY="240.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c10" fitHeight="134.0" fitWidth="53.0" layoutX="685.0" layoutY="233.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c11" fitHeight="134.0" fitWidth="53.0" layoutX="734.0" layoutY="242.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c12" fitHeight="134.0" fitWidth="53.0" layoutX="791.0" layoutY="242.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c13" fitHeight="134.0" fitWidth="53.0" layoutX="846.0" layoutY="233.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c14" fitHeight="134.0" fitWidth="53.0" layoutX="907.0" layoutY="245.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c15" fitHeight="134.0" fitWidth="47.0" layoutX="950.0" layoutY="240.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c16" fitHeight="121.0" fitWidth="47.0" layoutX="1005.0" layoutY="248.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c17" fitHeight="127.0" fitWidth="47.0" layoutX="1052.0" layoutY="248.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c18" fitHeight="127.0" fitWidth="47.0" layoutX="1099.0" layoutY="247.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c19" fitHeight="121.0" fitWidth="47.0" layoutX="1146.0" layoutY="258.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c20" fitHeight="121.0" fitWidth="47.0" layoutX="1199.0" layoutY="258.0" pickOnBounds="true" />
+        <ImageView fx:id="p1c21" fitHeight="121.0" fitWidth="47.0" layoutX="1246.0" layoutY="258.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c1" fitHeight="150.0" fitWidth="71.0" layoutX="99.0" layoutY="420.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c2" fitHeight="150.0" fitWidth="59.0" layoutX="180.0" layoutY="420.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c3" fitHeight="150.0" fitWidth="59.0" layoutX="248.0" layoutY="423.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c4" fitHeight="150.0" fitWidth="53.0" layoutX="318.0" layoutY="413.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c5" fitHeight="144.0" fitWidth="59.0" layoutX="374.0" layoutY="413.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c6" fitHeight="134.0" fitWidth="53.0" layoutX="439.0" layoutY="418.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c7" fitHeight="134.0" fitWidth="53.0" layoutX="500.0" layoutY="418.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c8" fitHeight="134.0" fitWidth="53.0" layoutX="561.0" layoutY="413.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c9" fitHeight="134.0" fitWidth="53.0" layoutX="621.0" layoutY="413.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c10" fitHeight="134.0" fitWidth="53.0" layoutX="675.0" layoutY="413.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c11" fitHeight="134.0" fitWidth="53.0" layoutX="734.0" layoutY="407.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c12" fitHeight="134.0" fitWidth="53.0" layoutX="791.0" layoutY="407.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c13" fitHeight="127.0" fitWidth="47.0" layoutX="844.0" layoutY="414.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c14" fitHeight="127.0" fitWidth="47.0" layoutX="895.0" layoutY="417.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c15" fitHeight="127.0" fitWidth="47.0" layoutX="950.0" layoutY="417.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c16" fitHeight="121.0" fitWidth="47.0" layoutX="1005.0" layoutY="420.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c17" fitHeight="121.0" fitWidth="47.0" layoutX="1049.0" layoutY="410.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c18" fitHeight="121.0" fitWidth="47.0" layoutX="1099.0" layoutY="420.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c19" fitHeight="121.0" fitWidth="47.0" layoutX="1143.0" layoutY="417.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c20" fitHeight="121.0" fitWidth="47.0" layoutX="1199.0" layoutY="410.0" pickOnBounds="true" />
+        <ImageView fx:id="p2c21" fitHeight="121.0" fitWidth="47.0" layoutX="1238.0" layoutY="401.0" pickOnBounds="true" />
+      <Label fx:id="hpPlayer1" layoutX="1340.0" layoutY="194.0" prefHeight="38.0" prefWidth="83.0" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="hpPlayer2" layoutX="58.0" layoutY="614.0" prefHeight="38.0" prefWidth="83.0" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="roundL" layoutX="174.0" layoutY="62.0" prefHeight="54.0" prefWidth="71.0" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="65.0" prefHeight="48.0" prefWidth="71.0" text="Round: " textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="roundInfo" layoutX="25.0" layoutY="117.0" prefHeight="48.0" prefWidth="417.0" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="timeLineL" arcHeight="5.0" arcWidth="5.0" height="384.0" layoutX="42.0" layoutY="209.0" stroke="BLACK" strokeType="INSIDE" width="34.0">
+         <fill>
+            <RadialGradient centerX="0.5397727272727273" centerY="0.47572815533980584" focusAngle="24.78" focusDistance="-0.024390243902439046" radius="0.6097560975609756">
+               <stops>
+                  <Stop color="#057ceb" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <ProgressBar fx:id="progressBar1" layoutX="1162.0" layoutY="154.0" prefWidth="200.0" visible="false" />
+      <ProgressBar fx:id="progressBar2" layoutX="35.0" layoutY="622.0" prefWidth="200.0" visible="false" />
+      <Button fx:id="ok2" layoutX="107.0" layoutY="652.0" mnemonicParsing="false" onAction="#progressB2" prefHeight="23.0" prefWidth="47.0" text="ok" visible="false" />
+      <Button fx:id="ok1" layoutX="1238.0" layoutY="185.0" mnemonicParsing="false" onAction="#progressB1" prefHeight="23.0" prefWidth="47.0" text="ok" visible="false" />
+    </children>
+</AnchorPane>
